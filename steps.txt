@@ -1,0 +1,18 @@
+--------------------VENV & UPGRADE PIP------------------------
+- python -m venv venv
+- source venv/scripts/activate / - deactivate
+- pip list
+- pip freeze
+- python.exe -m pip install --upgrade pip
+
+--------------------INSTALL DJANGO, START PROJECT and APP------------------------
+- pip install django
+- django-admin startproject a_core .
+- python manage.py runserver
+- python manage.py migrate
+- python manage.py createsuperuser
+add .gitignore
+- git init
+- git add .
+- git commit -m '01 - START'
+
