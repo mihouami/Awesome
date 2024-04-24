@@ -5,6 +5,7 @@
 - pip freeze
 - python.exe -m pip install --upgrade pip
 
+
 --------------------INSTALL DJANGO, START PROJECT and APP------------------------
 - pip install django
 - django-admin startproject a_core .
@@ -16,3 +17,10 @@ add .gitignore
 - git add .
 - git commit -m '01 - START'
 
+
+--------------------TEMPLATES------------------------
+add templates folder
+include this folder to settings.py
+- python manage.py startapp a_posts
+- git add .
+- git commit -m '02 - ADD FIRST APP AND RENDER TEMPLATE'
