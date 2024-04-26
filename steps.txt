@@ -28,3 +28,9 @@ include this folder to settings.py
 --------------------BREAK UP THE TEMPLATES------------------------
 - git add .
 - git commit -m '03 - BREAK UP THE TEMPLATES'
+
+--------------------POST MODEL - CREATE POST------------------------
+- python manage.py makemigrations
+- python manage.py migrate
+- git add .
+- git commit -m '03 - POST MODEL - CREATE POST'
