@@ -34,3 +34,11 @@ include this folder to settings.py
 - python manage.py migrate
 - git add .
 - git commit -m '03 - POST MODEL - CREATE POST'
+
+--------------------WEBCRAWLER / WEBSPIDER------------------------
+- pip install beautifulsoup4
+- pip install requests
+- python manage.py makemigrations
+- python manage.py migrate
+- git add .
+- git commit -m '04 - WEBCRAWLER / WEBSPIDER'
