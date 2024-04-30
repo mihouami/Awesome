@@ -46,3 +46,9 @@ include this folder to settings.py
 --------------------CRUD + 404------------------------
 - git add .
 - git commit -m '04 - CRUD + 404'
+
+--------------------posts tags------------------------
+- python manage.py makemigrations
+- python manage.py migrate
+- git add .
+- git commit -m '04 - POSTS TAGS'
