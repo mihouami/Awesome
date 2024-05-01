@@ -33,7 +33,7 @@ include this folder to settings.py
 - python manage.py makemigrations
 - python manage.py migrate
 - git add .
-- git commit -m '03 - POST MODEL - CREATE POST'
+- git commit -m '04 - POST MODEL - CREATE POST'
 
 --------------------WEBCRAWLER / WEBSPIDER------------------------
 - pip install beautifulsoup4
@@ -41,17 +41,17 @@ include this folder to settings.py
 - python manage.py makemigrations
 - python manage.py migrate
 - git add .
-- git commit -m '04 - WEBCRAWLER / WEBSPIDER'
+- git commit -m '05 - WEBCRAWLER / WEBSPIDER'
 
 --------------------CRUD + 404------------------------
 - git add .
-- git commit -m '04 - CRUD + 404'
+- git commit -m '06 - CRUD + 404'
 
 --------------------posts tags------------------------
 - python manage.py makemigrations
 - python manage.py migrate
 - git add .
-- git commit -m '04 - POSTS TAGS'
+- git commit -m '07 - POSTS TAGS'
 
 
 --------------------Static/media Files------------------------
@@ -63,4 +63,4 @@ include this folder to settings.py
 - python manage.py makemigrations
 - python manage.py migrate
 - git add .
-- git commit -m '04 - POSTS TAGS'
+- git commit -m '08 - Static/media Files'
