@@ -1,3 +1,4 @@
+{% load static %}
 <aside
   x-show="mobileSidebarOpen"
   x-cloak
@@ -14,7 +15,8 @@
         <a href="{% url 'category' category.slug %}">
           <img
             class="w-8 h-8 object-cover mr-2"
-            src="https://img.icons8.com/small/96/null/landscape.png"
+            src="{{ category.image.url }}"
+            alt="{{ category.image }}"
           />
           <span class="font-bold text-sm">{{ category.name }}</span>
         </a>
@@ -26,7 +28,7 @@
     <div class="flex items-center">
       <img
         class="w-7 mr-2 -mt-3"
-        src="https://img.icons8.com/ios-glyphs/90/null/fire-heart.png"
+        src="{% static 'images/fireheart_black.svg' %}"
       />
       <h2>Top Posts</h2>
     </div>
@@ -73,7 +75,7 @@
     <div class="flex items-center">
       <img
         class="w-7 mr-2 -mt-3"
-        src="https://img.icons8.com/ios-glyphs/90/null/fire-heart.png"
+        src="{% static 'images/fireheart_black.svg' %}"
       />
       <h2>Top Comments</h2>
     </div>
