@@ -64,3 +64,10 @@ include this folder to settings.py
 - python manage.py migrate
 - git add .
 - git commit -m '08 - Static/media Files'
+
+
+--------------------ALL AUTH - 01------------------------
+- pip install django-allauth
+- python manage.py migrate
+- git add .
+- git commit -m '09 - ALL AUTH - 01'
