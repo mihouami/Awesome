@@ -52,3 +52,15 @@ include this folder to settings.py
 - python manage.py migrate
 - git add .
 - git commit -m '04 - POSTS TAGS'
+
+
+--------------------Static/media Files------------------------
+- mkdir static
+- cd static
+- mkdir images css js
+- cd ..
+- mkdir media
+- python manage.py makemigrations
+- python manage.py migrate
+- git add .
+- git commit -m '04 - POSTS TAGS'
