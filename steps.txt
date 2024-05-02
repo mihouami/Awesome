@@ -71,3 +71,7 @@ include this folder to settings.py
 - python manage.py migrate
 - git add .
 - git commit -m '09 - ALL AUTH - 01'
+
+--------------------ALL AUTH - 02------------------------
+- git add .
+- git commit -m '09 - ALL AUTH - 02'
