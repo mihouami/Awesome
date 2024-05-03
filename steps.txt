@@ -75,3 +75,13 @@ include this folder to settings.py
 --------------------ALL AUTH - 02------------------------
 - git add .
 - git commit -m '09 - ALL AUTH - 02'
+
+
+--------------------PROFILE PAGE------------------------
+- python manage.py startapp a_users
+- pip install Pillow
+- python manage.py makemigrations
+- python manage.py migrate
+- pip install django-cleanup
+- git add .
+- git commit -m '10 - PROFILE PAGE'
