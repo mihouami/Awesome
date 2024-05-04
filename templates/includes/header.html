@@ -54,9 +54,9 @@
         >
           <img
             class="h-8 w-8 rounded-full object-cover"
-            src="{{ user.profile.image.url }}"
+            src="{{ user.profile.avatar }}"
           />
-          {{ user.username }}
+          {{ user.profile.name }}
           <img
             x-bind:class="dropdownOpen && 'rotate-180 duration-300'"
             class="w-4"

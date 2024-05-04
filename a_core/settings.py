@@ -141,6 +141,10 @@ ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_REQUIRED = True
 
 
+# 
+ACCOUNT_USERNAME_BLACLLIST = ['admin', 'accounts', 'profile', 'category', 'post']
+
+
 
 
 

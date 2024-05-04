@@ -85,3 +85,9 @@ include this folder to settings.py
 - pip install django-cleanup
 - git add .
 - git commit -m '10 - PROFILE PAGE'
+
+--------------------PROFILE PAGE------------------------
+- python manage.py makemigrations
+- python manage.py migrate
+- git add .
+- git commit -m 'PROFILE PAGE - 2'
